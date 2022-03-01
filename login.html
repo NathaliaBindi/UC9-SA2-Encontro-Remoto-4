@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITAN TECH STORE</title>
+
+      <!-- @@@@@@@@@@@@@@@  LINKS  @@@@@@@@@@@@@@@ -->
+      <link rel="stylesheet" href="css/login.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
+      <link rel="shortcut icon" type="imagex/png" href="img/logotipos/favicon.png">
+  
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <main class="container-fluid gx-0">
+                <!-- NAVBAR-->
+                <div class="menu col-12">
+                    <nav id="navbar">
+                        <div class="menu-sanduiche"><i class="bi bi-list" style="font-size: 23px;"></i></div>
+                        <div class="logo"><a href="index.html"><img src="img/logotipos/logo.png" alt="logotipo"></a></div>
+                        <div class="atalhos">
+                            <a href="#"><i class="bi bi-search" style="font-size: 17px; "></i></a>
+                            <a href="login.html"><i class="bi bi-person-square" style="font-size: 17px; "></i></a>
+                            <a href="#"><i class="bi bi-bag-fill" style="font-size: 17px;"></i></a>
+                        </div>
+                    </nav>
+                </div>
+                
+                <div class="login-cadastro col-12">
+                    <div class="titulo">
+                            <h1>identificação</h1>
+                    </div>
+                    <div class="login">
+                        <div class="coluna01">
+                            <div class="coluna01texto">
+                                <h2>já tenho cadastro</h2>
+                                <input class="email" type="email" placeholder="E-mail">
+                                <input id="senha" type="password" placeholder="Senha">
+                                <span class="eye" onclick="myFunction()">
+                                    <i id="ocultarsenha" class="bi bi-eye-slash-fill" style="font-size: 25px;"></i>
+                                    <i id="mostrarsenha" class="bi bi-eye-fill" style="font-size: 25px;"></i>
+                                </span>
+                                <button type="submit" class="btn-login">entrar</button>
+                            </div>
+
+                            <div class="link01">
+                                <a href="#">esqueci meu login</a>
+                                <a href="#">esqueci minha senha</a>
+                            </div>
+
+                            <div class="linha"></div>
+
+                            <div class="link02-titulo">
+                                <h2>acesse com as redes sociais</h2>
+                            </div>
+
+                            <div class="link02">
+                                <a href="#"><img src="img/login cadastro/footer facebook.png" alt=""></a>
+                                <a href="#"><img src="img/login cadastro/footer google.png" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="linha-coluna"></div>
+                        <div class="coluna02">
+                            <div class="coluna02">
+                                <div class="coluna01texto">
+                                    <h2>quero me cadastrar</h2>
+                                    <input class="email" type="email" placeholder="E-mail">
+                                    <input class="senhacadastro" type="password" placeholder="Crie sua senha">
+                                    <input class="senhacadastroconfirma" type="password" placeholder="Confirme sua senha">
+                                    <input class="cpf" type="email" placeholder="CPF">
+                                    <input class="cep" type="email" placeholder="CEP">
+                                    <a href="#"><button class="btn-cadastro" type="submit">cadastrar</button></a>                          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--FOOTER-->
+                <div class="footer col-12 d-none  d-xl-flex">
+                    <div class="footer01">
+                        <h5>Institucional</h5>
+                        <a href="#">sobre a titan</a>
+                        <a href="#">políticas do site e marketplace</a>
+                        <a href="#">políticas de privacidade</a>
+                        <a href="#">código de defesa do consumidor</a>
+                        <a href="#">código de conduta ética</a>
+                        <a href="#">trabalhe conosco</a>
+                    </div>
+                    <div class="footer02">
+                        <h5>minha conta</h5>
+                        <a href="#">meus pedidos</a>
+                        <a href="#">cadastrar ou remover newsletter</a>
+                        <a href="#">políticas de privacidade</a>
+
+                        <h5> mídias sociais</h5>
+                        <div class="icones01">
+                        <a href="#"><i class="bi bi-instagram"  style="font-size:30px"></i></a>
+                        <a href="#" style="font-size:30px"><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer03">
+                        <h5>atendimento</h5>
+                        <p>Horário de atendimento: 08:00 às 20:00 - Segunda a Sábado, horário de Brasília (exceto domingo e feriado)</p>
+                    </div>
+                    <div class="footer04">
+                        <h5>central SAC:</h5>
+                        <p>(00) 0000-0000</p>
+                        <p>faleconosco@titan.com.br</p>
+                        <div class="icones02">
+                        <a href="#" class="googleplay"><img src="img/footer/google play.png" alt="googleplay" ></a>
+                        <a href="#" class="facebook"><img src="img/footer/app store.png" alt="applestore"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer05">
+                        <a href="#"><img src="img/logotipos/logo.png" alt="logotipo" width="150px"></a>
+                    </div>
+
+                </div>
+    </main>
+  
+
+    <!-- @@@@@@@@@@@@@@@  SCRIPTS  @@@@@@@@@@@@@@@ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
